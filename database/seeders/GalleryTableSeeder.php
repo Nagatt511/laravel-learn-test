@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class GalleryTableSeeder extends Seeder
@@ -14,6 +13,9 @@ class GalleryTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        \App\Models\Product::all()->each( function ($product) {
+            $gallery = \App\Models\Gallery::factory()->create();
+            $product->gallery()->save($gallery);
+        });
     }
 }
