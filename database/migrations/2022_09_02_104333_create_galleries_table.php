@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
+class CreateGalleriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,9 +14,17 @@ return new class extends Migration
     public function up()
     {
         Schema::create('galleries', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+            $table->integer('product_id')->unsigned()->nullable();
+            $table->json('photos');
             $table->timestamps();
+            $table->foreign('product_id')->references('id')->on('products');
+           
         });
+
+        // Schema::create('galleries', function (Blueprint $table) {
+           
+        // });
     }
 
     /**
@@ -26,6 +34,10 @@ return new class extends Migration
      */
     public function down()
     {
+        Shema::table('galleries', function (Blueprint $table) 
+        {
+            $table->dropForeign(['galleries_product_id_foreign']);
+        });
         Schema::dropIfExists('galleries');
     }
-};
+}
