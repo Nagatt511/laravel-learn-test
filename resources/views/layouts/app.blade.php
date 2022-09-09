@@ -38,7 +38,7 @@
         type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/#[[latestVersion]]#/mdb.min.js"
     ></script>
-    
+
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
@@ -100,6 +100,7 @@
         <main class="py-4">
             @yield('content')
         </main>
+        @include('layouts.footer')
     </div>
 </body>
 </html>
