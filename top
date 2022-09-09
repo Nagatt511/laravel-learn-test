@@ -1,0 +1,131 @@
+[33mcommit 7b8c0835c77dbc068db489344cbffc7f87266eae[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 9 09:33:07 2022 +0200
+
+    change start rout to app
+
+[33mcommit 7056570e83dfe218d43e3bca2c0b3557992177e0[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 9 09:30:29 2022 +0200
+
+    created CatalogController resorces and add rout from this controller
+
+[33mcommit d81ba9f8bc32799eaa80fb1f3ea44705bd96067e[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 9 09:22:05 2022 +0200
+
+    created view footer
+
+[33mcommit 2aa0d8969c8cefdf6b57fb21377fbeaa24112fb6[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Wed Sep 7 16:03:55 2022 +0200
+
+    add material design bootstrap 4 cdn
+
+[33mcommit fb9a668a6e62250903de4fca2cf632c5fe490d1f[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Sat Sep 3 08:21:35 2022 +0200
+
+    update
+
+[33mcommit 269c1706088c0d89168e006e5423e6d83239be24[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 19:59:16 2022 +0200
+
+    add controllers and views from auth
+
+[33mcommit f930bb1a65676d6f6524d95ee178cb53aee515ba[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 19:34:20 2022 +0200
+
+    add laravel/ui
+
+[33mcommit 853ab16b62abc244d2cf118e40797f7d7bc96f74[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 19:18:12 2022 +0200
+
+    Created miogration from categories table
+
+[33mcommit a8dbcc2c74444913797d5d1e6fdcbe0b0ffd055b[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 19:08:19 2022 +0200
+
+    created connetions to products
+
+[33mcommit 0e9501fdabead5709aed6c8180b4cf65b1458b6c[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 19:05:11 2022 +0200
+
+    create conection categories belongsToMany
+
+[33mcommit 909ac8d2de89cadd54298e6ad7a381258caa19b7[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 19:02:57 2022 +0200
+
+    update seeders
+
+[33mcommit 18372e58f2efda9b69bf0c2c3f1a4fc10c43b6ff[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 18:11:57 2022 +0200
+
+    created-seeders
+
+[33mcommit c4e00cd458e51a32279ee03dfec364a63e612741[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 17:29:34 2022 +0200
+
+    update-factory-code
+
+[33mcommit 84fa7749c0bbf268f24a0048fe6634d647db8f2d[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 16:10:24 2022 +0200
+
+    created-factories
+
+[33mcommit 380771f1276869a3065629d35bb65268df85c75e[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 14:02:08 2022 +0200
+
+    completed migrations to database
+
+[33mcommit 0025309be6cf632e68de4ccd451389c4fa729b7f[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 12:51:38 2022 +0200
+
+    create-migrations
+
+[33mcommit 5d63c87f9b0cd867b2edd0223cd339cd27a92b4d[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 12:37:46 2022 +0200
+
+    created-model-Order
+
+[33mcommit 49b7cf169e2b38308a9db5170eda1c05c49a7ef7[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 12:01:09 2022 +0200
+
+    created-model-Category
+
+[33mcommit dfeeac5e7158cbb9df40c8681c1ff662d8b27a64[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 11:59:33 2022 +0200
+
+    created-model-Gallery
+
+[33mcommit 6735e2a771eeb442355283af61ac76155cd2765f[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 11:58:33 2022 +0200
+
+    create-model-Product
+
+[33mcommit af7286966acee05d95a518896665b2ce61419796[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 11:52:14 2022 +0200
+
+    createt-test-project
+
+[33mcommit 186c7616e51747e82a55a05fbea94d385ba54633[m
+Author: Pyvovarov Danylo <dan4ishka5121@gmail.com>
+Date:   Fri Sep 2 11:48:57 2022 +0200
+
+    createt-test-project

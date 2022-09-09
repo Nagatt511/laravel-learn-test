@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CatalogController;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +17,6 @@ Route::get('/', function () {
     return view('layouts.app');
 })->name('index');
 
-Route::resource('catalog', CatalogController::class);
+Route::resource('catalog', 'CatalogController');
 
 
