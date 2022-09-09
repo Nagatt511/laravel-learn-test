@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('layouts.app');
 })->name('index');
 
+Auth::routes();
+
 Route::resource('catalog', 'CatalogController');
 
 
