@@ -15,7 +15,7 @@ use App\Http\Controllers\CatalogController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.app');
 })->name('index');
 
 Route::resource('catalog', CatalogController::class);
