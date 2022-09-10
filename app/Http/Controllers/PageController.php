@@ -8,8 +8,8 @@ class PageController extends Controller
 {
     public function index()
     {
-        $products = Product::productBy('create_at','desc')->take(12)->get();
-
+        $products = \App\Models\Product::orderBy('created_at','desc')->take(12)->get();
+        dd($products);
         return view('welcome', compact($products));
     }
 }

@@ -40,7 +40,7 @@
 <body>
     <div id="app">
         @include('layouts.navBar')
-        @include('welcome')
+        {{-- @include('welcome') --}}
         <main class="py-4">
             @yield('content')
         </main>

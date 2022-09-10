@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CatalogController;
+use App\Http\Controllers\PageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +14,7 @@ use App\Http\Controllers\CatalogController;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.app');
-})->name('index');
+Route::get('/', [App\Http\Controllers\PageController::class, 'index'])->name('index');
 
 Auth::routes();
 
